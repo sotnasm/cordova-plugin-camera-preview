@@ -30,9 +30,9 @@
       </feature>
     </config-file>
 
-    <config-file target="AndroidManifest.xml" parent="/manifest">
+    <config-file target="AndroidManifest.xml" parent="/*">
       <uses-feature android:name="android.hardware.camera" />  
-      <uses-feature android:name="android.hardware.camera.autofocus" android:required="false" />
+      <uses-feature android:name="android.hardware.camera.autofocus" />
       <uses-feature android:name="android.hardware.camera.flash" />  
       <uses-feature android:name="android.hardware.camera.front" />  
       <uses-permission android:name="android.permission.CAMERA" />
